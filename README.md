@@ -85,37 +85,30 @@ Wrote 1048576 bytes in 2.103 ms
 | `dummy.txt`    | Sample file created by write operation |
 | `test.txt`     | Sample file to test read operation     |
 
-```
 
----
 
-## 💡 How It Works
+💡 How It Works
 
-* Uses `process.argv` to read command-line arguments.
-* Measures time with `performance.now()` from `perf_hooks`.
-* Reads or writes a file using async `fs.readFile` or `fs.writeFile`.
+1. Uses `process.argv` to read command-line arguments.
+2. Measures time with `performance.now()` from `perf_hooks`.
+3. Reads or writes a file using async `fs.readFile` or `fs.writeFile`.
 
----
 
-## ❗ Error Handling
+❗ Error Handling
 
-* Shows helpful usage guide if arguments are missing.
-* Gracefully exits on read/write errors with a clear message.
+1. Shows helpful usage guide if arguments are missing.
+2. Gracefully exits on read/write errors with a clear message.
 
----
 
-## 🙌 Contributions
+🙌 Contributions
 
 Feel free to fork the repo, improve it (e.g., support sync mode, custom file sizes), and open a PR!
 
----
 
-## 📄 License
+ 📄 License
 
 MIT – Free for personal and commercial use.
 
----
-
-## ✨ Author
+ ✨ Author
 
 Made with ❤️ by Jay Prakash Valecha(https://github.com/JPV2207)
