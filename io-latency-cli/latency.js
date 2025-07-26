@@ -75,13 +75,3 @@ if (action === "read") {
 } else {
   showHelp();
 }
-
-// To Read -
-
-// C:\Users\admin\Desktop\io-latency-cli> echo hello world my name is jay>file_name.txt
-// this creates a file inside the io-latency-cli.
-// after creating the file, run the command - node latency.js read file_name.txt
-
-// To Write -
-
-// Simply run the command - node latency.js write file_name.txt
